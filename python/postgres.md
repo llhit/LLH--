@@ -24,5 +24,3 @@ delete from 表名 [where  条件];{例：delete from users where id=2;}        
 ALTER TABLE orders DROP COLUMN shipment_number;                          |  删除表的列（语法：ALTER TABLE 表名 DROP COLUMN 要删除的列;）
 ALTER TABLE orders ADD COLUMN shipment_number TEXT NOT NUll DEFAULT '';  |  添加表的列（语法：ALTER TABLE 表名 ADD COLUMN 列 （TEXT NOT NUll DEFAULT） '';）
 ALTER TABLE orders ADD COLUMN should_pay_rmb DECIMAL(8,2);               |  金钱带小数（DECIMAL(8,2)） 8表示一共8个数字，小数点后面占两位
-                                                                         |  
-                                                                         |  
